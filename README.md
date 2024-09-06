@@ -4,7 +4,7 @@ Sure, I could have just filled out the outing form manually every week, but wher
 
 ---
 
-## What’s This?
+## **What’s This?**
 
 This little tool uses **OpenCV** to update the dates on my university outing form. Sure, I could write the dates myself, but where's the fun in that when I can get Python to do it for me? 🤓
 
