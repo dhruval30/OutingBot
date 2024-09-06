@@ -16,8 +16,8 @@ def visualize_specific_landmarks(img, landmarks):
         
         cv2.putText(img, label, text_org, cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
     
-    # Resize image for display
-    scale_percent = 50  # percent of original size
+
+    scale_percent = 50 
     width = int(img.shape[1] * scale_percent / 100)
     height = int(img.shape[0] * scale_percent / 100)
     dim = (width, height)
@@ -27,7 +27,6 @@ def visualize_specific_landmarks(img, landmarks):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-# Example usage
 image_path = 'outing.png'
 img = cv2.imread(image_path)
 
